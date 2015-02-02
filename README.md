@@ -17,6 +17,7 @@ Installation:
 * cd ros_image_to_cv_image
 * mkdir build && cd build
 * source /opt/ros/indigo/setup.bash [or groovy]
+* cmake ..
 * make
 
 Usage:
