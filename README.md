@@ -23,7 +23,7 @@ Usage:
 ------
 
 * source /opt/ros/indigo/setup.bash [or groovy]
-* USAGE: ros2cv "</some/input/topic>" "</some/output/topic>"
+* USAGE: ros2cv "/some/input/topic" "/some/output/topic"
 * For example: ros2cv /usb_cam/image_raw /ros2cv/image
 
 
