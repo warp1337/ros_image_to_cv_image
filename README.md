@@ -7,7 +7,8 @@ Dependencies:
 --------------
 
 * Install ROS as described here: http://wiki.ros.org/indigo/Installation/Ubuntu
-* This should also work with ROS "Groovy"
+* ros-indigo-ros-base is sufficient, but ros-indigo-desktop is recommended! 
+* This package should work with ROS Indigo and Groovy
 
 
 Installation:
