@@ -100,19 +100,19 @@ include_directories(
 )
 
 ## Declare a cpp library
-# add_library(morse_to_cv_bridge
-#   src/${PROJECT_NAME}/morse_to_cv_bridge.cpp
+# add_library(ros2cv
+#   src/${PROJECT_NAME}/ros2cv.cpp
 # )
 
 ## Declare a cpp executable
-add_executable(morse_to_cv_bridge src/image_converter.cpp)
+add_executable(ros2cv src/ros2cv.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(morse_to_cv_bridge_node morse_to_cv_bridge_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(morse_to_cv_bridge
+target_link_libraries(ros2cv
   ${catkin_LIBRARIES}
 )
 
@@ -156,7 +156,7 @@ target_link_libraries(morse_to_cv_bridge
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_morse_to_cv_bridge.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/ros2cv.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
